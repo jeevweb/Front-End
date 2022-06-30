@@ -1,32 +1,79 @@
 
-
+<!DOCTYPE html>
 <html>
     <head>
-        <title> Airsoft News!  </title>
+        <title> Pizza!  </title>
+        <link rel="stylesheet" href="./style.css">
+
+        <meta charset="UTF-8">
+        <meta name="description" content="This is for learn HTML">
+        <meta name="keywords" content="html5,udemy,learn,code">
+        <meta name="author" content="Jeevweb">
+        <meta name="viewport" cotent="width=divece-width, initial-scale">
     </head>
     <body>
         <header>
-            <h1> Airsoft News! </h1>
-            <h3> Informacion sobre Airsoft, Partidas, compra y venta de equipo</h3>
+            <h1> Best Pizza ever! </h1>
         </header>
         <main>
-            <section>
-                <h2>Sobre nosotros</h2>
-                <p> Años de experiecia en el Airsoft, y la comunidad chilena nesecita mas informacion.</p>
+            
+            <section>  
+               <audio width="600" autoplay controls>
+                <source src="./DJ Mari - Guaracha Man   Baila Guaracha.mp3" type="audio/mp3">
+
+               </audio> 
+
+
             </section>
+
+
             <section>
-                <article>
-                    <a href="#"> <h3>Partida Sabado 01/07/22 </h3></a>
-                    <p> La primera partida del mes de Julio se llevara acabo en fuerte bulnes</p>
-                        <br/>  <br/>
-                </article>
+                <h2>Place Order</h2>
+                <p> Ready for pizza? </p>
+                <form method="GET" action="palace-order.php"> 
+                   <h4>Delivery</h4>
+                   <input name="delivery" type="radio" value="delivery" /> Delivery <br/>
+                   <input name="delivery" type="radio" value="pickup" /> Pick Up <br/>
+                   
+                   <h4> Address</h4>
+                    <input name="Address1" placeholder="Address Line 1" class="lf-input" /> <br/>
+                    <input name="Address2" placeholder="Address Line 2" class="lf-input" /> <br/>                
+                    <input name="city" placeholder="City" class="sm-input" />
+                    <input name="state" placeholder="State" class="sm-input" />
+                    <input name="zip" placeholder="Zip Code" class="sm-input" > <br/>
+                    <br/>
+
+                    <h4>Size</h4>
+                    <select name="size"> 
+                        <option value="12">12 - $13.99</option>
+                        <option value="16">16 - $16.99</option>
+                        <option value="18">18 - $19.99</option>
+                        <option value="72">72 - $149.99</option>
+                        
+
+                    </select>
+
+
+                    <h4>Ingredients</h4>
+                    <input name="ingredient" type="checkbox" value="pepperoni" /> Pepperoni <br/>
+                    <input name="ingredient" type="checkbox" value="salami" /> Salami <br/>
+                    <input name="ingredient" type="checkbox" value="bacon" /> Bacon <br/>
+                    <input name="ingredient" type="checkbox" value="sausage" /> Sausage <br/>
+                    <input name="ingredient" type="checkbox" value="onion" /> Onion <br/>
+                    <input name="ingredient" type="checkbox" value="green-peppers" /> Green Peppers <br/>
+                    <br/> <br/>
+                    <button type="sudmit">Place Order</button>
+                </form>
+            
             </section>
+           
+        
         </main>
     </body>
-
+    <section id="contact-form"> 
+    </section>
     <footer> 
         <center> &copy; Jeevweb <br/>
-
             <a href="#">Condicones de servicio</a>
         </center>
         </footer>
